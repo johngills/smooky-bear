@@ -1,0 +1,42 @@
+{
+  "name": "smooky",
+  "version": "1.0.0",
+  "description": "Smarter than your average bear.",
+  "main": "smook.js",
+  "scripts": {
+    "dev": "nodemon server.js -i logs",
+    "standards": "gulp eslint",
+    "start": "node server.js",
+    "test": "npm run standards && lab -t 100 -C -S -v -a code"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johngills/smooky-bear.git"
+  },
+  "keywords": [
+    "bears",
+    "smooky"
+  ],
+  "author": "Gills",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johngills/smooky-bear/issues"
+  },
+  "homepage": "https://github.com/johngills/smooky-bear#readme",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "eslint": "^2.8.0",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^2.0.0",
+    "lab": "^10.3.1",
+    "node-telegram-bot-api": "^0.21.1",
+    "nodemon": "^1.9.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.0.4",
+    "eslint": "^2.8.0",
+    "eslint-config-defaults": "^9.0.0",
+    "eslint-plugin-filenames": "^0.2.0"
+  }
+}
