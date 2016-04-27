@@ -29,6 +29,7 @@
     "gulp": "^3.9.1",
     "gulp-eslint": "^2.0.0",
     "lab": "^10.3.1",
+    "node-env-file": "^0.1.8",
     "node-telegram-bot-api": "^0.21.1",
     "nodemon": "^1.9.1",
     "path": "^0.12.7"
